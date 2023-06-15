@@ -19,6 +19,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   text-align: center;
   border-radius: 20px;
+  box-shadow: 0 0 50px #ccc;
 }
 .qrcode-panel img {
   margin: 16px auto;
@@ -43,7 +44,7 @@ body {
 }
 .attribution {
     position: fixed;
-    top: 90%;
+    top: 95%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
